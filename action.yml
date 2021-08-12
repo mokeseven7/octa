@@ -1,0 +1,10 @@
+description: "Creates a GitHub Deployment"
+author: "chrnorm"
+branding:
+    icon: arrow-up
+    color: black
+inputs:
+    initial_status:
+        description: "Initial status for the deployment"
+        default: "pending"
+        required: false

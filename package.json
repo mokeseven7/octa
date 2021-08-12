@@ -1,0 +1,22 @@
+{
+  "name": "sop-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "pack": "ncc build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@octokit/core": "^3.5.1",
+    "@types/node": "^16.6.0",
+    "@zeit/ncc": "^0.22.3"
+  },
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "@actions/github": "^5.0.0"
+  }
+}
